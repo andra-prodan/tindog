@@ -1,0 +1,192 @@
+/*........... ELEMENTS selectors ...........*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*........... CLASS selectors ...........*/
+
+.big-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.card-price{
+    font-weight: 700;
+}
+
+.card-size{
+    padding: 3% 2%;
+}
+
+.carousel-item{
+    padding: 10% 17%;
+}
+
+.container-fluid{
+    padding: 0 15% 2%;
+}
+
+.download-button{
+    margin:0 2%;
+}
+
+.feat{
+    font-size: 50px;
+    padding-bottom: 10%;
+    color: #ef8172;
+}
+
+.feat:hover{
+    color: #ff4c68;
+}
+
+.footer-icons{
+    padding: 2% 1%;
+}
+
+.footer-links{
+    color: #ef8172;
+}
+
+.footer-links:hover{
+    color: #ff4c68;  
+}
+
+.heading-cta{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.heading-pricing{
+    font-weight: 900; 
+}
+
+.nav-link{
+    font-weight: 400;
+}
+
+.navbar{
+    padding-left: 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 0;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 0 20px 20px 15px;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    width: 100%;
+    margin: auto;
+    font-weight: 900; 
+}
+
+/*........... ID selectors ...........*/
+
+#bottom-title{
+    padding-top: 2rem;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    line-height: 2;
+}
+
+#features{
+    padding: 10% 15%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+#fin{
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 7%;
+}
+
+#footer{
+    text-align: center;
+    padding: 6% 15%;
+    line-height: 2;
+    font-size: 0.7rem;
+}
+
+#iphone-mockup{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#testimonials{
+    margin: auto;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+}
+
+#title-download{
+    line-height: 6;
+}
+
+/*........... MEDIA selectors ...........*/
+
+@media (max-width:990px){
+
+    .container-fluid{
+        padding-bottom: 0;
+    }
+
+    #iphone-mockup{
+        position: static;
+        width: 50%;
+        transform: rotate(0deg);
+    }
+
+    #title{
+        background-color: #ff4c68;
+        text-align: center;
+        padding-bottom: 0;
+    }
+}
